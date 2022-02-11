@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'jenkins-agent-ocp-sonar-maven'}
+    agent {label 'jenkins-agent-ocp-jdk-test-tools-rc'}
 
     stages {
         stage('Build') {
